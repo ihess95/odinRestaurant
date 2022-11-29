@@ -6,5 +6,4 @@ function createBase() {
 
   bodyContainer.appendChild(header);
 }
-
-// export { createBase };
+export { createBase };

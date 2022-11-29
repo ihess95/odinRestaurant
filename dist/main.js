@@ -1,1 +1,1 @@
-console.log("this is a test"),createBase();
+(()=>{"use strict";console.log("this is a test"),function(){const t=document.getElementById("content"),e=document.createElement("div");e.textContent="Ian's Spaghetti Parlor",e.classList.add("restaurantHeader"),t.appendChild(e)}()})();
