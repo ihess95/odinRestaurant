@@ -1,3 +1,8 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1rem;
+}
+
 img {
   width: 100vh;
   border-radius: 100px;
@@ -20,4 +25,12 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.webContainer .restaurantHeader {
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+.webContainer img {
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */
