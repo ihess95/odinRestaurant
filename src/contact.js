@@ -10,6 +10,9 @@ function createContact() {
   bodyText.textContent =
     "Woah this restaurant is so good I almost forgot it's called a spaghetti parlor when all they serve is dumplings!";
 
+  while (bodyContainer.hasChildNodes()) {
+    bodyContainer.removeChild(bodyContainer.firstChild);
+  }
   bodyContainer.appendChild(header);
   bodyContainer.appendChild(pic);
   bodyContainer.appendChild(bodyText);
