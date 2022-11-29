@@ -5,6 +5,7 @@ import { createContact } from "./contact";
 // console.log("this is a test");
 
 function createButtons() {
+  createBase();
   const webContainer = document.querySelector(".webContainer");
   const buttonContainer = document.createElement("div");
   const content = document.getElementById("content");
@@ -27,9 +28,6 @@ function createButtons() {
   buttonContainer.appendChild(homeBtn);
   buttonContainer.appendChild(menuBtn);
   buttonContainer.appendChild(contactBtn);
-  webContainer.appendChild(buttonContainer);
-  webContainer.appendChild();
+  webContainer.insertBefore(buttonContainer, content);
 }
 createButtons();
-
-createBase();
