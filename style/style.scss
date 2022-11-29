@@ -1,6 +1,23 @@
 img {
-  width: 100px;
+  width: 100vh;
+  border-radius: 100px;
 }
+
 body {
-  background-color: green;
+  background-color: darkcyan;
+} /*# sourceMappingURL=style.css.map */
+
+.buttonContainer {
+  display: flex;
+  button {
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+  }
+}
+.webContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

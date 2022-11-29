@@ -4,7 +4,7 @@ function createContact() {
   header.textContent = "Ian's Contact Parlor";
   header.classList.add("restaurantHeader");
   const pic = document.createElement("img");
-  pic.src = "../img/dump.jpg";
+  pic.src = "../img/contact.webp";
   pic.classList.add("dumpImg");
   const bodyText = document.createElement("div");
   bodyText.textContent =

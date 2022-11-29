@@ -4,7 +4,7 @@ function createBase() {
   header.textContent = "Ian's Spaghetti Parlor";
   header.classList.add("restaurantHeader");
   const pic = document.createElement("img");
-  pic.src = "../img/dump.jpg";
+  pic.src = "../img/chef.jpg";
   pic.classList.add("dumpImg");
   const bodyText = document.createElement("div");
   bodyText.textContent =
