@@ -1,6 +1,8 @@
 * {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1rem;
+  padding: 0px;
+  margin: 0px;
 }
 
 img {
@@ -14,6 +16,9 @@ body {
 
 .buttonContainer {
   display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: rgba(30, 30, 30, 0.6);
   button {
     display: flex;
     padding: 10px;
