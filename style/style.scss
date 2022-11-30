@@ -22,7 +22,10 @@ body {
   button {
     display: flex;
     padding: 10px;
-    margin: 5px;
+    margin: 0px 10px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    border: none;
+    box-shadow: 0px 2px 4px black;
   }
 }
 .webContainer {
