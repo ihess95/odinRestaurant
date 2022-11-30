@@ -33,4 +33,8 @@ body {
 }
 .webContainer img {
   padding: 10px;
+}
+
+.menuGrid {
+  display: grid;
 }/*# sourceMappingURL=style.css.map */
