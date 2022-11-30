@@ -37,4 +37,14 @@ body {
 
 .menuGrid {
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  img {
+    width: 20vh;
+  }
+  div[class*="Card"] {
+    background-color: rgba(30, 30, 30, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+  }
 }
