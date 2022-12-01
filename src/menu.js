@@ -57,6 +57,12 @@ function createMenu() {
     "../img/lasagna.png",
     "Hoo boy is that a whole lasagn?"
   );
+  createFood(
+    "pancakes",
+    "Pancakes",
+    "../img/pancakes.jpeg",
+    "The pancakes are fine, I guess..."
+  );
 }
 
 export { createMenu };
