@@ -54,6 +54,10 @@ body {
     background-color: rgba(30, 30, 30, 0.2);
     padding: 10px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 
