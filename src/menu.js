@@ -63,6 +63,12 @@ function createMenu() {
     "../img/pancakes.jpeg",
     "The pancakes are fine, I guess..."
   );
+  createFood(
+    "pizza",
+    "Pizza Boy",
+    "../img/pizza.jpeg",
+    "This doesn't even need to be on the menu, you already knew we had pizza"
+  );
 }
 
 export { createMenu };
