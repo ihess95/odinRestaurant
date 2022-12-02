@@ -61,6 +61,11 @@ body {
   }
 }
 
+#content {
+  display: grid;
+  grid-template-columns: min-content;
+}
+
 .description {
   padding-left: 10px;
 }

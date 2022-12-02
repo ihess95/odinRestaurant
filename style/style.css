@@ -61,6 +61,12 @@ body {
   align-items: center;
 }
 
+#content {
+  display: grid;
+  grid-template-columns: -webkit-min-content;
+  grid-template-columns: min-content;
+}
+
 .description {
   padding-left: 10px;
 }/*# sourceMappingURL=style.css.map */
