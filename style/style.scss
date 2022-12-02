@@ -27,6 +27,9 @@ body {
     border: none;
     box-shadow: 0px 2px 4px black;
   }
+  button:hover {
+    background-color: aqua;
+  }
 }
 .webContainer {
   display: flex;
