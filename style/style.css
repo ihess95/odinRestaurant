@@ -60,8 +60,15 @@ body {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+}
+.menuGrid div[class*=Card] div[class*=Price] {
+  padding-top: 10px;
+  font-weight: bold;
+}
+.menuGrid div[class*=Card]:hover {
+  background-color: rgba(30, 30, 30, 0.5);
 }
 
 #content {

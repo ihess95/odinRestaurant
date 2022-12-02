@@ -59,8 +59,15 @@ body {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    div[class*="Price"] {
+      padding-top: 10px;
+      font-weight: bold;
+    }
+  }
+  div[class*="Card"]:hover {
+    background-color: rgba(30, 30, 30, 0.5);
   }
 }
 
